@@ -54,40 +54,45 @@
   <div class="article_text">
     <hr>
 <h3>ARM Scalable Vector Extension</h3>
-<p>While interning at ARM I worked on a number of projects based on the Scalable Vector Extension (SVE). I rewrote some of the zlib compression library, vectorising algorithms with SVE C instrinsics. I also worked on testing and improving the auto-vectorisation capability of the compiler, searching for cases which should be auto-vectorised. This work involved lots of C programming, benchmarking with simulators, assembly optimisation and working with Clang.</p>
+<p>While interning at ARM I worked on a number of projects based on the Scalable Vector Extension (SVE). I rewrote some of the zlib compression library, vectorising algorithms with SVE C instrinsics. I also worked on testing and improving the auto-vectorisation capability of the compiler. This work involved C programming, optimisation at the assembly level, benchmarking with multiple micro-archictecture simulators and working with Clang.</p>
 <p><img alt="Alt Text" src="/images/armlogo.svg"></p>
-<p><a href="https://developer.arm.com/docs/dui0965/latest/sve-overview/introducing-sve">https://developer.arm.com/docs/dui0965/latest/sve-overview/introducing-sve</a></p>
+<p>sve: <a href="https://developer.arm.com/docs/dui0965/latest/sve-overview/introducing-sve">https://developer.arm.com/docs/dui0965/latest/sve-overview/introducing-sve</a></p>
 <hr>
 <h3>Mobile Robotics</h3>
 <p>This project made me realise just how much manual tuning and heavy use of probabilistic methods are used in consumer robotics currently. This project was the practical side of the CO333 Robotics course. Using a Raspberry Pi, BrickPI interface board and numerous sensors we built our own robots, tuned the motors and sensors then implemented variations of probabilistic motion and sensing using techniques such as Monte Carlo Localisation and SLAM. </p>
+<p><img alt="Alt Text" src="/images/rpirobots.png"></p>
 <p><br/>code: <a href="https://github.com/daniely211/Brickpi">https://github.com/daniely211/Brickpi</a>
 <br/>course webpage: <a href="https://www.doc.ic.ac.uk/~ajd/Robotics/">https://www.doc.ic.ac.uk/~ajd/Robotics/</a></p>
 <hr>
 <h3>Piezo IoT percussion</h3>
-<p>An IoT project, given a sensor the task was to design a novel IoT device using MQTT transport protocol. The final product was a device where the user could attach piezoelectric sensors to objects surrounding them, use a web app to assign a sound to sensor and then hit the objects and create their own music. 
-code : https://github.com/VasiliosRallis/EmbeddedSystems</p>
+<p>An IoT project, given a sensor the task was to design a novel IoT device using the MQTT transport protocol. The final product was a device where the user could attach piezoelectric sensors to objects surrounding them, use a web app to assign a sound to sensor and then hit the objects and create their own music with the audio coming from the device using the web app. </p>
+<p><img alt="Alt Text" src="/images/percussio.jpg"></p>
+<p><br/>code: <a href="https://github.com/VasiliosRallis/EmbeddedSystems">https://github.com/VasiliosRallis/EmbeddedSystems</a></p>
 <hr>
 <h3>HLP Visual2</h3>
 <p>Contributing to a soon to be Open Source project called Visual2, a User-friendly Educational Assembler and Simulator for ARM UAL. The target language is F#, which is transpiled to Javascript (js) thanks to Fable v2.x. Electron is then used to convert the developed web-app to a cross-platform native application, providing access to platform-level commands (i.e. file-system, path, multiple processes), which are unavailable to (vanilla) browser web-apps. I implemented tools to view the Pipelining of instructions and Branch Predition (BTB + BPT).</p>
+<p><img alt="Alt Text" src="/images/PipelineTooltip.png"></p>
 <hr>
 <h3>C Compiler</h3>
-<p>ANSI C89 to MIPS Assembly compiler and C to Python translator. I implemented a subset of the C89 spec including the core functionality {local variables; integer arithmetic; while, if, else conditions; for loops, function calls, multidimensional arrays}. Written in C++, using Flex for the Lexer and Bison for the Parser. This was a really fun solo project to get to understand compilers better.
-https://github.com/wmvndrscht/EIE2-C-Compiler</p>
+<p>ANSI C89 to MIPS Assembly compiler and C to Python translator. I implemented a subset of the C89 spec including the core functionality {local variables; integer arithmetic; while, if, else conditions; for loops, function calls, multidimensional arrays}. Written in C++, using Flex for the Lexer and Bison for the Parser. This was a really fun solo project to get to understand compilers better.</p>
+<p><img alt="Alt Text" src="/images/clogo.png"></p>
+<p><br/>code: <a href="https://github.com/wmvndrscht/EIE2-C-Compiler">https://github.com/wmvndrscht/EIE2-C-Compiler</a></p>
 <hr>
 <h3>CNN Architecture Analysis</h3>
-<p>A research project under the Circuit and Systems Group at Imperial College. Investigated relationships in the repetition of calculations between overlapping tiles of an Image that are passed through specific CNN architectures (eg VGG-16, Alexnet) to weigh up whether to store previous calculations or recompute at each layer of the CNN.</p>
-<p>Culminated in a Matlab tool now in use for research group to more efficiently implement CNN architectures on FPGAs.</p>
-<hr>
+<p>A research project under the Circuit and Systems Group at Imperial College Electrical Engineering Department. I investigated relationships in the repetition of calculations between overlapping tiles of an image that are passed through specific CNN architectures (eg VGG-16, Alexnet) to weigh up whether to store previous calculations or recompute at each layer of the CNN. This culminated in a Matlab tool now in use for research group to more efficiently implement CNN architectures on FPGAs.</p>
+<h2><img alt="Alt Text" src="/images/cnn.png"></h2>
 <h3>MIPS Simulator</h3>
-<p>Given a binary file of MIPS instructions, simulate a MIPS CPU. All written in C++. An interesting project to understand the fundamentals of the MIPS Architecture and instruction encoding.
-https://github.com/wmvndrscht/EIE2-MIPS-Simulator</p>
+<p>Given a binary file of MIPS instructions, simulate a MIPS CPU. All written in C++. An interesting project to understand the fundamentals of the MIPS Architecture and instruction encoding.</p>
+<p><img alt="Alt Text" src="/images/mip.png"></p>
+<p><br/>code: <a href="https://github.com/wmvndrscht/EIE2-MIPS-Simulator">https://github.com/wmvndrscht/EIE2-MIPS-Simulator</a></p>
 <hr>
 <h3>FPGA Image Processing</h3>
 <p>Project to experiment with an FPGA to hardware accelerate an Image Processing Application. We chose to look at the application of drone delivery, detecting a specific pattern (target zone) in any rotation with a tolerance of 30 degrees tilt.
 Tools : C, Xilinx Zybo Board, Vivado HLS, SDSoC.</p>
+<p><img alt="Alt Text" src="/images/zybo.png"></p>
 <hr>
 <h3>Automated CNC</h3>
-<p>While volunteering in Northern Greece with HelpRefugees a grassroots charity, they received a crowdfunded project called Maslow CNC. This automated cutting complex designs on wood, a time consuming problem for them at the time. A friend and I setup the whole project for them, using the open source designs, we constructed {Designed &amp; Built the wooden chassis - carpentry; Setup the motors; Setup the software for an Arduino}</p>
+<p>While volunteering in Northern Greece with HelpRefugees a grassroots charity, they received a crowdfunded project called Maslow CNC. This automated cutting complex designs on wood, a time consuming problem for them at the time. A friend and I setup the whole project for them, using the open source designs, we constructed {Designed &amp; Built the wooden chassis - carpentry; Setup the motors; Setup the software for an Arduino}.</p>
 <p>A fun project to really test mechanical, electrical and carpentry skills in the Greek heat of 38 degrees celsius!</p>
   </div>
   <div class="article_meta">
