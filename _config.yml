@@ -2,7 +2,7 @@
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
+# yourself editing this file very often, consider using Jekyll'ts data files
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -17,6 +17,7 @@ title: wvds
 email: wmvndrscht [at] gmail [.] com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog.
+url: "https://wmvndrscht.github.io"
 twitter_username: _wvds 
 github_username: wmvndrscht 
 minimal_mistakes_skin: default
@@ -24,12 +25,12 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London 
 
 include:
   - _pages
@@ -48,6 +49,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -56,34 +58,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "wim vds"
-  avatar : "/assets/images/wvds_logo.png"
-  bio    : "Curious minded."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  #name   : "wim"
+  #avatar : "/assets/images/noice_lib.jpg"
+  #bio    : "Curious."
+  #links:
+    #    - label: "Website"
+    #      icon: "fas fa-fw fa-link"
+    #      url: "https://"
+    #     - label: "Twitter"
+    #       icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/_wvds"
+        #    - label: "GitHub"
+        #        icon: "fab fa-fw fa-github"
+        #      url: "https://github.com/"
+    #   - label: "LinkedIn"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://linkedin.com/in/wmvndrscht"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    #    - label: "Twitter"
+    #      icon: "fab fa-fw fa-twitter-square"
+    #      url: "https://twitter.com/_wvds"
+    #    - label: "Instagram"
+    #      icon: "fab fa-fw fa-instagram"
+    #      url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -93,10 +92,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false 
       comments: true
-      share: true
-      related: true
+      share: false 
+      related: false 
   # _pages
   - scope:
       path: "_pages"
@@ -111,3 +110,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-6HD3BC2NGN"
+    anonymize_ip: false # default
