@@ -12,7 +12,7 @@ In April, I joined the Entrepreneur First (EF) London 18th cohort. Here's an unp
 
 I've always considered starting a company - I would love to take on a big challenge and build an incredible product. But I've always thought, can I be a founder, have I got what it takes? To know, you need to take the leap.
 
-To make this leap, it's helped is to realise a few things:
+To make this leap, a few realisations have helped me:
 
 **Founders are incredible, but they too were unproven talent in their early days.**
 
