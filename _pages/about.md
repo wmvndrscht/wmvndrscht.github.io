@@ -7,8 +7,8 @@ title: ""
 
 Hi, I'm Wim! Here I share my thoughts.
 
-To get in touch, say hi: wmvndrscht at gmail dot com or @_wvds.
+I've just come out of the EF LDN 18 cohort without finding a co-founder. Previously I've worked across cybersecurity, OSS, ML, football, humanitarian orgs and charities.
 
-I will soon start on the EF LDN 18 cohort, previously I've worked as a cyber security consultant, malware researcher, automotive security researcher, low-level software engineer, ml engineer, ml researcher, salesman, charity worker, footballer and operations assistant.
+I grew up just outside London, and have lived in Hong Kong, Stockholm and Helsinki.
 
-I've lived in London, Hong Kong, Stockholm and Helsinki, and love to travel.
+I'm always open to making new friends, to get in touch, say hi: wmvndrscht[@]gmail[.]com or @_wvds on twitter.

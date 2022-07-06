@@ -12,7 +12,6 @@ title: ""
 - Siddhartha, Herman Hesse
 - Narcissus and Goldmund, Herman Hesse
 - The Three-Body Problem series, Cixin Liu
-- 
 
 ### Non-fiction
 - Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers, Andy Greenberg
@@ -22,6 +21,7 @@ title: ""
 - Never Split the Difference, Chris Voss
 - Fooled by Randomness, Taleb
 - The Lessons of History, Will & Ariel Durant
+- Grit: The Power of Passion and Perseverance, Angela Duckworth
 
 ## Articles
 
