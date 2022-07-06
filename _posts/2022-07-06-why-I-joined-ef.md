@@ -10,9 +10,9 @@ tags:
 
 In April, I joined the Entrepreneur First (EF) London 18th cohort. Here's an unpublished blog post I wrote before joining EF. 
 
-I've always considered starting a company - I would love to take on a big challenge and build an incredible product. But I've always thought, can I be a founder, have I got what it takes? To know, you need to take the leap.
+I've always considered starting a company - I would love to take on a big challenge and build an incredible product. But I've always thought, can I be a founder, have I got what it takes? To know, I need to take the leap.
 
-To make this leap, a few realisations have helped me:
+A few realisations have helped me to take this leap:
 
 **Founders are incredible, but they too were unproven talent in their early days.**
 
@@ -22,7 +22,7 @@ Take a read of "Founders at Work: Stories of Startups' Early Days", just look at
 
 Closely tied in with this point - don't be intimated by founder's stories. They benefit significantly from connecting dots in hindsight, making them sound extra incredible.
 
-**I'll need a good co-founder. It's important to place yourself in the right environment to find one.**
+**You'll need a good co-founder. It's important to place yourself in the right environment to find one.**
 
 Most startups happen in the innovation talent bubbles throughout the world - top US universities, San Francisco, Israeli army sections, research labs, EF cohorts. Placing yourself in these talent bubbles will greatly improve your chances of founding a startup. 
 

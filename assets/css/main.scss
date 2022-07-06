@@ -24,22 +24,50 @@ See: https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-3268
 - It looks like the screen pixel sizes to move into each new "size" category are defined in
   the "Breakpoints" section of "_variables.scss"?
 */
+
+
+/* system typefaces */
+$serif: Lora, Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+/* serif typefaces */
+$georgia: Georgia, serif !default;
+$times: Times, serif !default;
+$bodoni: "Bodoni MT", serif !default;
+$calisto: "Calisto MT", serif !default;
+$garamond: Garamond, serif !default;
+
+$global-font-family           : $georgia !default;
+$header-font-family           : $georgia !default;
+$caption-font-family          : $georgia !default;
+
+// .masthead__menu { 
+//   color: red;
+// }
+
+
 html {
-  font-size: 12px; // change to whatever
+  font-size: 16px; // change to whatever
 
-  @include breakpoint($small) {
-    font-size: 12px; // change to whatever
-  }
+//   @include breakpoint($small) {
+//     font-size: 16px; // change to whatever
+//   }
 
-  @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
-  }
+//   @include breakpoint($medium) {
+//     font-size: 16px; // change to whatever
+//   }
 
-  @include breakpoint($large) {
-    font-size: 16px; // change to whatever
-  }
+//   @include breakpoint($large) {
+//     font-size: 16px; // change to whatever
+//   }
 
-  @include breakpoint($x-large) {
-    font-size: 16px; // change to whatever
-  }
+//   @include breakpoint($x-large) {
+//     font-size: 16px; // change to whatever
+//   }
 }
