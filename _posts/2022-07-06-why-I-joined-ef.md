@@ -8,8 +8,6 @@ tags:
   - startups
 ---
 
-
-
 In April, I joined the Entrepreneur First (EF) London 18th cohort. Here's an unpublished blog post I wrote before joining EF. 
 
 I've always considered starting a company - I would love to take on a big challenge and build an incredible product. But I've always thought, can I be a founder, have I got what it takes? To know, you need to take the leap.
